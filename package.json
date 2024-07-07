@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "homepage": "https://diald.github.io/Buzz---Text-Blogs/"
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
